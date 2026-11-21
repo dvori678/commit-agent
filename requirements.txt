@@ -1,0 +1,7 @@
+langgraph>=1.2
+langchain>=1.5
+langsmith>=0.15
+langchain-google-genai
+
+# optional: only if you use COMMIT_MODEL="openai:..."
+# langchain-openai

@@ -1,0 +1,17 @@
+# virtual environment
+.venv/
+
+# python
+__pycache__/
+*.pyc
+
+# secrets - never commit API keys
+.env
+*.env
+
+# generated / third-party data (the dataset lives in LangSmith)
+commits.jsonl
+datasets/
+
+# scratch git repos used for manual testing
+git-test*/
